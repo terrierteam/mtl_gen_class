@@ -14,4 +14,22 @@ pip install -r requirements.txt
 
 By default, we expect raw and processed data to be stored in `./data/` :
 
+### OR-QuAC
+
+#### OR-QuAC files download
+
+Download necessary OR-QuAC files and store them into `./data/or-quac`:
+
+```bash
+mkdir data/or-quac
+cd data/or-quac
+wget https://ciir.cs.umass.edu/downloads/ORConvQA/all_blocks.txt.gz
+wget https://ciir.cs.umass.edu/downloads/ORConvQA/qrels.txt.gz
+gzip -d *.txt.gz
+mkdir preprocessed
+cd preprocessed
+wget https://ciir.cs.umass.edu/downloads/ORConvQA/preprocessed/train.txt
+wget https://ciir.cs.umass.edu/downloads/ORConvQA/preprocessed/test.txt
+wget https://ciir.cs.umass.edu/downloads/ORConvQA/preprocessed/dev.txt
+
 
