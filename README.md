@@ -31,5 +31,21 @@ cd preprocessed
 wget https://ciir.cs.umass.edu/downloads/ORConvQA/preprocessed/train.txt
 wget https://ciir.cs.umass.edu/downloads/ORConvQA/preprocessed/test.txt
 wget https://ciir.cs.umass.edu/downloads/ORConvQA/preprocessed/dev.txt
+```
 
+## Baselines
+To compare our results with the baseline, you can use the models and datasets provided at [LIF GitHub Repository](https://github.com/nusnlp/LIF.git).
 
+### Downloading the Baseline
+1. Navigate to [LIF GitHub Repository](https://github.com/nusnlp/LIF.git).
+2. Follow their installation and setup instructions to download the models and datasets.
+3. Optionally, you can directly clone their repository using the following command:
+
+```bash
+git clone https://github.com/nusnlp/LIF.git
+```
+
+### Using the Baseline for Comparison
+Once you've downloaded the LIF baseline, follow their instructions to run the model and obtain results.
+
+Then, you can use these results for a direct comparison with our Multi-Task Learning models.
